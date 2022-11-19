@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-fl3nkey-base",
+  "version": "1.0.2",
+  "description": "eslint base config by fl3nkey",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FL3NKEY/eslint-config-fl3nkey.git"
+  },
+  "author": "FL3NKEY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FL3NKEY/eslint-config-fl3nkey/issues"
+  },
+  "homepage": "https://github.com/FL3NKEY/eslint-config-fl3nkey#readme",
+  "peerDependencies": {
+    "eslint": "^8.28.0"
+  },
+  "dependencies": {
+    "eslint-plugin-import-newlines": "1.2.3",
+    "eslint-plugin-unused-imports": "2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-fl3nkey-typescript",
+  "version": "1.0.1",
+  "description": "eslint typescript config by fl3nkey",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FL3NKEY/eslint-config-fl3nkey.git"
+  },
+  "author": "FL3NKEY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FL3NKEY/eslint-config-fl3nkey/issues"
+  },
+  "homepage": "https://github.com/FL3NKEY/eslint-config-fl3nkey#readme",
+  "peerDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-fl3nkey-base": "^1.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.43.0"
+  }
+}
