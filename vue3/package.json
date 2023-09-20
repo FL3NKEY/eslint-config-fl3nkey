@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-fl3nkey-vue3",
-  "version": "1.0.2",
-  "description": "eslint typescript config by fl3nkey",
+  "version": "1.0.4",
+  "description": "eslint vue config by fl3nkey",
   "main": "index.js",
   "exports": {
     ".": "./index.js",
@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/FL3NKEY/eslint-config-fl3nkey#readme",
   "peerDependencies": {
-    "eslint": "^8.28.0",
-    "eslint-config-fl3nkey-base": "^1.0.0"
+    "eslint": "^8.49.0",
+    "eslint-config-fl3nkey-base": "^1.0.3"
   },
   "publishConfig": {
     "access": "public"

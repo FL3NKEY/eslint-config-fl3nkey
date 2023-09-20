@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fl3nkey-base",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint base config by fl3nkey",
   "main": "index.js",
   "exports": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/FL3NKEY/eslint-config-fl3nkey#readme",
   "peerDependencies": {
-    "eslint": "^8.28.0"
+    "eslint": "^8.49.0"
   },
   "dependencies": {
     "eslint-plugin-import-newlines": "1.2.3",

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fl3nkey-typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "eslint typescript config by fl3nkey",
   "main": "index.js",
   "exports": {
@@ -18,14 +18,15 @@
   },
   "homepage": "https://github.com/FL3NKEY/eslint-config-fl3nkey#readme",
   "peerDependencies": {
-    "eslint": "^8.28.0",
-    "eslint-config-fl3nkey-base": "^1.0.1"
+    "eslint": "^8.49.0",
+    "eslint-config-fl3nkey-base": "^1.0.3",
+    "typescript": "^5.2.2"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.43.0",
-    "@typescript-eslint/parser": "5.43.0"
+    "@typescript-eslint/eslint-plugin": "6.7.2",
+    "@typescript-eslint/parser": "6.7.2"
   }
 }
