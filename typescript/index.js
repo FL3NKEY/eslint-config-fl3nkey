@@ -37,6 +37,7 @@ module.exports = {
                 delimiter: 'semi',
                 requireLast: false,
             },
-        }]
+        }],
+        '@typescript-eslint/no-explicit-any': ['warn'],
     },
 };

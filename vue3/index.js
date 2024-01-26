@@ -80,5 +80,6 @@ module.exports = {
             shouldMatchCase: true,
         }],
         'vue/attribute-hyphenation': ['error', 'never'],
+        'vue/v-on-event-hyphenation': ['error', 'never'],
     },
 };

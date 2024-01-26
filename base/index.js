@@ -64,7 +64,7 @@ module.exports = {
         'dot-location': ['error', 'property'],
         eqeqeq: ['error', 'always', { null: 'ignore' }],
         'grouped-accessor-pairs': 'error',
-        'guard-for-in': 'error',
+        'guard-for-in': ['off'],
         'max-classes-per-file': ['error', 1],
         'no-alert': 'warn',
         'no-case-declarations': 'error',
@@ -118,22 +118,7 @@ module.exports = {
         'no-nonoctal-decimal-escape': 'error',
         'no-octal': 'error',
         'no-octal-escape': 'error',
-        'no-param-reassign': ['error', {
-            props: true,
-            ignorePropertyModificationsFor: [
-                'acc',
-                'accumulator',
-                'e',
-                'ctx',
-                'context',
-                'req',
-                'request',
-                'res',
-                'response',
-                '$scope',
-                'staticContext',
-            ]
-        }],
+        'no-param-reassign': ['off'],
         'no-proto': 'error',
         'no-redeclare': 'error',
         'no-restricted-properties': ['error', {
@@ -357,14 +342,6 @@ module.exports = {
         'no-plusplus': 'error',
         'no-restricted-syntax': [
             'error',
-            {
-                selector: 'ForInStatement',
-                message: 'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
-            },
-            {
-                selector: 'ForOfStatement',
-                message: 'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
-            },
             {
                 selector: 'LabeledStatement',
                 message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
