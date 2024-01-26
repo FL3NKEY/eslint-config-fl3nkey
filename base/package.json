@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fl3nkey-base",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint base config by fl3nkey",
   "main": "index.js",
   "exports": {
